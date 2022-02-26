@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+/* 
+font-family: 'Dancing Script', cursive; 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&display=swap');
+/*
+font-family: 'Bebas Neue', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Montserrat', sans-serif;
+}
+
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1b4781;
+    color: rgb(179, 9, 9);
+}
+
+
+.barraNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+}
+
+
+.logo{
+    font-size: 24px;
+    margin-top: -16px;
+    padding-left: 150px;
+} 
+
+
+.logo i{
+    font-size: 18px;
+}
+
+.logo b{
+    font-weight: normal;
+    font-size: 24px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: rgb(179, 9, 9);
+}
+
+
+.main{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+/* padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px */;
+}
+
+.info{
+    color: white;
+    width: 40vw;
+    padding-top: 70px;
+} 
+
+.main img{
+    background-color: white;
+    width: 16vw;
+    /* margin-left: 5vw; */
+    border-radius: 20px;
+    border: 3px solid rgb(179, 9, 9);
+}
